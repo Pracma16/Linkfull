@@ -7,7 +7,7 @@
 @section('contenido')
 <main>
     <div class="baner-video">
-      <video class="baner" onloadedmetadata="this .muted=true" autoplay loop style="opacity: 40%;">
+      <video class="baner" onloadedmetadata="this .muted=true" autoplay loop style="opacity: 20%;">
           <source src="/imagenes/Baner-video-link.mp4">
         </video>
     </div>
@@ -160,7 +160,7 @@
 <section class="contacto" id="contacto">
     <div class="container-contacto">
         <h2>CONTACTO</h2>
-        <form class="form-contacto" action="https://formspree.io/f/xoqoklrz" method="POST">
+        <form class="form-contacto" action="https://formspree.io/f/xoqoklrz" method="POST" style="" >
             <div class="mb-3">
                 <label for="exampleInputName1" class="form-label">Nombre y apellido</label>
                 <input type="text" class="form-control" id="exampleInputName1" placeholder="Escribe aquí tu nombre y apellido" name="nombre">

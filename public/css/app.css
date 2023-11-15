@@ -205,38 +205,38 @@ option .desplega{
 }
 .btn-busco-servicio a {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     background: transparent;
-    border: 2px solid var(--naranja);
+    border: 3px solid var(--turquesa);
     border-radius: 15px;
-    font-size: 15px;
-    color: var(--naranja);
+    font-size: 20px;
+    color: var(--turquesa);
     text-decoration: none;
     font-weight: 800;
     letter-spacing: 1px;    
     z-index: 1;
     overflow: hidden;
-    padding: 5px;
+    padding: 6px;
 
     
 }
 .btn-quiero-prestar a {
+    margin: 5px;
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     background: transparent;
-    border: 2px solid var(--naranja);
+    border: 3px solid var(--turquesa);
     border-radius: 15px;
-    font-size: 15px;
-    color: var(--naranja);
+    font-size: 20px;
+    color: var(--turquesa);
     text-decoration: none;
     font-weight: 800;
     letter-spacing: 1px;    
     z-index: 1;
     overflow: hidden;
-    padding: 5px;
-    
+    padding: 6px;
 }
 .btn-busco-servicio a:hover {
     color: #5ce1e6;

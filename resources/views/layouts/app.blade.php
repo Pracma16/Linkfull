@@ -60,7 +60,7 @@
                     <a href="#" target="_blank"><img src="{{asset('imagenes/facebook.png')}}" alt="Facebook" title="Facebook"></a>
                     <a href="#" target="_blank"><img src="{{asset('imagenes/instagram.png')}}" alt="Instagram" title="Instagram"></a>
                     <a href="#" target="_blank"><img src="{{asset('imagenes/whatsapp.png')}}" alt="Whatsapp" title="Whatsapp"></a>
-                    >      
+                          
                 </div>
                 <p>Link - Todos los Derechos Reservados {{now()->year}}</p>
                 <p>Ciudad de Buenos Aires, Argentina.</p>
