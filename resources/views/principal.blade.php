@@ -38,7 +38,7 @@
             <div class="col-sm-12">       
             </div>
             <!--FILA 2/3: Carousel con Bootstrap-->
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExample" class="carousel slide"  >
                 <div class="carousel-inner">
                     <!--Slide 1-->
                     <div class="carousel-item active">

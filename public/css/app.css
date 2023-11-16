@@ -208,10 +208,10 @@ option .desplega{
     width: 70%;
     height: 70%;
     background: transparent;
-    border: 3px solid var(--turquesa);
+    border: 3px solid var(--turquesa2);
     border-radius: 15px;
     font-size: 20px;
-    color: var(--turquesa);
+    color: var(--turquesa2);
     text-decoration: none;
     font-weight: 800;
     letter-spacing: 1px;    
@@ -227,10 +227,10 @@ option .desplega{
     width: 70%;
     height: 70%;
     background: transparent;
-    border: 3px solid var(--turquesa);
+    border: 3px solid var(--turquesa2);
     border-radius: 15px;
     font-size: 20px;
-    color: var(--turquesa);
+    color: var(--turquesa2);
     text-decoration: none;
     font-weight: 800;
     letter-spacing: 1px;    
@@ -239,10 +239,13 @@ option .desplega{
     padding: 6px;
 }
 .btn-busco-servicio a:hover {
-    color: #5ce1e6;
+    color: var(--turquesa2);
+    border: 3px solid var(--turquesa2);
+    box-shadow: 4x 6x ;
 }
 .btn-quiero-prestar a:hover{
-    color: #5ce1e6;
+    color: var(--turquesa2);
+    border: 3px solid var(--turquesa2);
 }
 .btn-busco-servicio a::before {
     content: "";
