@@ -29,41 +29,43 @@
     </section>
 </main>   
 
+  <!------------------------------------------------------------------------>
 <!--Section CATEGORIA-->
 <section class="servicio" id="servicio">
     <div class="container-categoria">
-        <h2>CATEGORÍAS DE SERVICIOS</h2>
+        <h2 style="color:white; margin-bottom:8px;">CATEGORÍAS DE SERVICIOS</h2>
         <div class="row">
             <!--FILA 1/3: Título -->
-            <div class="col-sm-12"></div>
+            <div class="col-sm-12">       
+            </div>
             <!--FILA 2/3: Carousel con Bootstrap-->
             <div id="carouselExample" class="carousel slide" style="color:black">
                 <div class="carousel-inner">
                     <!--Slide 1-->
                     <div class="carousel-item active">
                     <div class="cards-wrapper">
-                        <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Comunicacion.jpg')}}" class="card-img-top" alt="...">
+                        <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/instalaciones.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 1</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver comunicación</a>
+                              <h5 class="card-title">Electricista</h5>
+                              <p class="card-text" style="text-align:center;">Nos encargamos de la instalación, mantenimiento y reparaciones relacionadas a la electricidad.</p>
+                              <a href="#" class="btn btn-primary">Ver Electricistas</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Construccion.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/Herrero.jpeg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 2</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver construcción</a>
+                              <h5 class="card-title">Herrero</h5>
+                              <p class="card-text" style="text-align:center;">Nos encargamos de fabricar productos nuevos, y también reparar y renovar artículos de metal.</p>
+                              <a href="#" class="btn btn-primary">Ver Herreros</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;" >
-                            <img src="{{asset('imagenes/Mascotas.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;" >
+                            <img src="{{asset('imagenes/Plomero.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 3</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver mascotas</a>
+                              <h5 class="card-title">Plomero</h5>
+                              <p class="card-text" style="text-align:center;">Nos encargamos de la instalación, matenimiento y reparación de sistemas de tuberías de agua, drenaje y gas.</p>
+                              <a href="#" class="btn btn-primary">Ver Plomeros</a>
                             </div>
                           </div>
                     </div>
@@ -71,28 +73,28 @@
                   <!--Slide 2-->
                   <div class="carousel-item">
                     <div class="cards-wrapper">
-                        <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Diseño.jpg')}}" class="card-img-top" alt="...">
+                        <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/Albañil.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 4</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver diseño</a>
+                              <h5 class="card-title">Albañil</h5>
+                              <p class="card-text" style="text-align:center;">Nos encargamos de las tareas de construcción de nuevas obras, reparación, remodelación.</p>
+                              <a href="#" class="btn btn-primary">Ver Albañil</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/enfermeria.jpeg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/Carpintero.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 5</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver enfermeria</a>
+                              <h5 class="card-title">Carpintero</h5>
+                              <p class="card-text" style="text-align:center;">Nos especializamos en el trabajo de la madera, crear muebles, instalar puertas y ventanas, construir estucturas de madera y reparar muebles y estructuras de madera dañadas o rotas.</p>
+                              <a href="#" class="btn btn-primary">Ver Carpintero</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/herramientas-limpieza.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/Pintor.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 6</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver limpieza</a>
+                              <h5 class="card-title">Pintor</h5>
+                              <p class="card-text" style="text-align:center;">Nos encargamos de la pintura de interiores y exteriores de casas. Nuestro trabajo es esencial para mantener las casas en buen estado y crear un ambiente agradable y acogedor.</p>
+                              <a href="#" class="btn btn-primary">Ver Pintor</a>
                             </div>
                           </div>
                     </div>
@@ -100,28 +102,28 @@
                   <!--Slide 3-->
                   <div class="carousel-item">
                     <div class="cards-wrapper">
-                        <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Infancia.jpg')}}" class="card-img-top" alt="...">
+                        <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/manicuristaUñas.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 7</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver infancia</a>
+                              <h5 class="card-title">Manicurista</h5>
+                              <p class="card-text" style="text-align:center;">Nos especializamos en el cuidado y embellecimiento de las manos y en especial, el cuidado y pinturas de las uñas.</p>
+                              <a href="#" class="btn btn-primary">Ver Manicurista</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Limpieza.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/CejasYPestañas.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 8</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver limpieza</a>
+                              <h5 class="card-title">Cejas y Pestañas</h5>
+                              <p class="card-text" style="text-align:center;">Nos especializamos en el diseño, la aplicación y el mantenimiento de las cejas y las pestañas.</p>
+                              <a href="#" class="btn btn-primary">Ver Cejas</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 20rem;">
-                            <img src="{{asset('imagenes/Mascotas.jpg')}}" class="card-img-top" alt="...">
+                          <div class="card" style="width: 25rem;">
+                            <img src="{{asset('imagenes/Estilista.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card 9</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Ver mascotas</a>
+                              <h5 class="card-title">Estilista</h5>
+                              <p class="card-text" style="text-align:center;">Nos especializamos en el cuidado del cabello, incluyendo su corte, peinado, coloración y tratamiento.</p>
+                              <a href="#" class="btn btn-primary">Ver Estilista</a>
                             </div>
                           </div>
                     </div>
@@ -145,6 +147,14 @@
             </div>
         </div>
     </div>
+</section>
+
+<!--Section ÚNETE-->
+<section class="about" id="about">
+    <h2>ÚNETE A NOSOTROS</h2>
+    <hr>
+    <p class="lead"><strong>L</strong>orem ipsum dolor, sit amet consectetur adipisicing elit. Officia non nobis ex earum unde enim quo assumenda vel dolore iusto minima, mollitia, voluptatem ut? Enim officiis id nobis pariatur similique ex, architecto iure atque omnis. Alias, amet. Dignissimos est id ipsam inventore, quis fuga ratione, autem nihil iure laudantium adipisci nobis! Inventore, sequi et vel earum culpa ratione nihil labore molestiae, sit esse, cumque consectetur omnis vero asperiores aliquam placeat hic quos quasi amet? Distinctio doloremque culpa ipsam illum beatae alias voluptatum impedit provident, ipsum vero aut omnis? Dicta quos at ipsa odit ullam cumque? Hic veritatis corrupti unde error.<br><strong>S</strong>i Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam assumenda culpa reprehenderit corporis mollitia atque vitae doloremque dignissimos veniam odit. <a id="palabra-contactarme" href="/register-prestador">aquí.</a></p>
+    <hr>
 </section>
 
 <!--Section CONTACTO con form-->
