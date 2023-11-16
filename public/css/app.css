@@ -8,7 +8,6 @@
     --azul-oscuro: #202c39ff;
     --blanco: rgb(255, 255, 255);
     --negro: rgb(0, 0, 0);
-
 }
 
 * {
@@ -72,23 +71,25 @@ body {
 }
 
 input{
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 15px;
     padding: 1%;
-    width: 250px;
+    width: 350px;
 }
 
 label{
     display: block
 }
 
-
 .profesion-pes{
     border-radius: 15px;
 }
 
-option .desplega{
+.desplega{
     border-radius: 15px;
+    width: 350px;
+    padding: 1%;
+    margin: 10px;
 }
 
 /*Video principal*/
@@ -100,7 +101,6 @@ option .desplega{
 .baner-video{
     position: absolute;
     width: 100%;
-   
 }
 
 /* Aqui empieza el estilo de la barra de navegación */
@@ -153,11 +153,11 @@ option .desplega{
 
 /* Aqui empieza el estilo de HOME */
 .home {
-    background-size: cover; /* Ajustar tamaño de la imagen de fondo */
-    background-position: center; /* Centrar la imagen de fondo */
+    /*background-size: cover; /* Ajustar tamaño de la imagen de fondo */
+    /*background-position: center; /* Centrar la imagen de fondo */
     height: 100vh;
     display: flex;
-    padding: 7% 10%;
+    padding: 10% 10%;
     align-items: center;
     text-align: left;
     position: relative;
@@ -187,6 +187,10 @@ option .desplega{
     font-size: 16px;
     margin: 20px 0 40px;
     text-align: justify;
+}
+
+h1{
+   margin-bottom: 20px;
 }
 
 /* Aqui empieza el estilo del button de contáctame */
@@ -239,9 +243,9 @@ option .desplega{
     padding: 6px;
 }
 .btn-busco-servicio a:hover {
-    color: var(--turquesa2);
-    border: 3px solid var(--turquesa2);
-    box-shadow: 4x 6x ;
+    color: var(--azul-claro);
+    border: 3px solid var(--azul-claro);
+    box-shadow: 0 1px 3px 2px  var(--naranja);
 }
 .btn-quiero-prestar a:hover{
     color: var(--turquesa2);
@@ -254,7 +258,7 @@ option .desplega{
     left: 0;
     width: 0;
     height: 100%;
-    background: #0a4b74;
+    background: var(--turquesa2);
     z-index: -1;
     transition: .6s;
     border-radius: 13px;
@@ -303,13 +307,14 @@ option .desplega{
 .card img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
 .card {
     margin: 20px;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
-    border-radius: 0;
+    border-radius: 20px;
 }
 
 .carousel-inner {
@@ -318,7 +323,7 @@ option .desplega{
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: #b8fdff;
+    background-color: var(--azul-claro);
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -397,17 +402,36 @@ hr {
 .btn-contacto:hover::before {
     width: 100%;
 }
-/* Aqui empieza el estilo de contacto */
+/* Aqui empieza el estilo de contacto de pagina principal*/
 .container-contacto {
     text-align: left;
     align-items: center;
-    padding: 10% 20%;
+    padding: 2% 8%;
+}
+
+.form-principal-contacto{
+    padding: 20px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 10%;
+    color: var(--blanco);
 }
 
 h2 {
-    color: #0a4b74;
-    padding: 5%;
+    color: var(--blanco);
+    padding: 1%;    
     text-align: center;
+}
+
+#exampleFormControlTextarea1{
+    width: 350px;
+    border-radius: 10px;
 }
 
 ::placeholder {
