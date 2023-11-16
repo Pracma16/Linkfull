@@ -38,7 +38,11 @@
             <div class="col-sm-12">       
             </div>
             <!--FILA 2/3: Carousel con Bootstrap-->
+<<<<<<< HEAD
             <div id="carouselExample" class="carousel slide"  >
+=======
+            <div id="carouselExample" class="carousel slide" style="color:black">
+>>>>>>> 86cc27c893298062bec041031975dde58b8bb720
                 <div class="carousel-inner">
                     <!--Slide 1-->
                     <div class="carousel-item active">
@@ -59,7 +63,7 @@
                               <a href="#" class="btn btn-primary">Ver construcción</a>
                             </div>
                           </div>
-                          <div class="card" style="width: 18rem;">
+                          <div class="card" style="width: 18rem;" >
                             <img src="{{asset('imagenes/Mascotas.jpg')}}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Card 3</h5>
