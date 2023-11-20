@@ -16,7 +16,7 @@
               <nav class="navbar bg-body-tertiary">
                 <img id="logo" src="{{asset('imagenes/logo.png')}}" alt="Logo" width="75" height="40" class="d-inline-block align-text-top">
                     <div class="container-fluid">
-                      <a href="/dashboard-prestador"" class="active d-none d-lg-block">Mis Ofertas</a>
+                      <a href="/dashboard-prestador" class="active d-none d-lg-block">Mis Ofertas</a>
                       <a href="/create-prestador" class="active d-none d-lg-block">Crear Oferta</a>
                       
                       @auth
