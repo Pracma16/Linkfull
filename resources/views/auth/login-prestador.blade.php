@@ -34,14 +34,9 @@
                 @enderror
         </div>
         <input class="btn btn-contacto" type="submit"
-        value="Ingresar">
-       
+        value="Ingresar"> 
         <p>No tienes cuenta prestador?<a class="noCuenta" href="{{route('register-prestador')}}">Crear cuenta</a></p>
-     
-       
-
     </form>
 </div>
-
 
 @endsection

@@ -66,8 +66,6 @@
             </div>
             <input class="btn btn-contacto" type="submit"
             value="Crear Cuenta">
-        </div>
-            
         </form>
     </div>
 @endsection

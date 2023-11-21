@@ -86,13 +86,7 @@ body {
 
 .navbar #logo {
     justify-content: flex-start;
-    margin-left: 15px;
-    opacity: 0.6;   
-}
-
-.navbar #logo:hover {
-    opacity: 1;
-    transition: .9s;
+    margin-left: 15px; 
 }
 
 /* Aqui empieza el estilo del menú hamburguesa */
@@ -358,7 +352,7 @@ h2 {
 }
 
 .contenedor {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .contenido {
@@ -400,8 +394,25 @@ display: inline-block
 }
 
 @media (max-width: 450px) {  
+    .contador{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .contenido{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
     .contenedor {
         margin-top: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
     .banner {
         margin-bottom: 30px; 
@@ -411,7 +422,7 @@ display: inline-block
         width: 99px;
     }
     .cartel>div{
-        font-size: 45px;
+        font-size: 25px;
     }
     .cartel>div>h3 {
         font-size: 15px;

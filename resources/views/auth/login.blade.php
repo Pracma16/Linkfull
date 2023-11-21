@@ -35,13 +35,8 @@
         </div>
         <input class="btn btn-contacto" type="submit"
         value="Ingresar">
-
         <p>¿No tienes cuenta?<a class="creaCuenta" href="{{route('register')}}">Crear cuenta</a></p>
         <a class="creaCuenta" href="{{route('login-prestador')}}">Si eres prestador inicia sesión aqui</a>
-
-
     </form>
 </div>
-
-
 @endsection
