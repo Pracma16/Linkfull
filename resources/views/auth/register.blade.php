@@ -71,8 +71,19 @@
                     @enderror
             </div>
         </div>
-            <input type="submit"
+       <!-- autenticacion con Facebook    
+       <div>
+
+        <input type="submit"
             value="Crear Cuenta">
-        </form>
+
+            <a href="{{route('auth.redirect')}}"
+            type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; display:block;">
+  Ingresar Facebook
+</a>
+       </div> -->
+
+    </form>
     </div>
 @endsection

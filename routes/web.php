@@ -46,3 +46,10 @@ Route::get('/dashboard',[PostController::class,'index'])->name('post.index');
 
 Route::get('/dashboard-electricistas',[ProfesionesController::class,'electricistas'])->name('electricistas');
 Route::get('/dashboard-plomeros',[ProfesionesController::class,'plomeros'])->name('plomeros');
+
+/* RUTA FACEBOOK*/ 
+Route::get('/auth/
+redirect', [AuthController::class,'redirect']) ->name('auth.redirect');
+ 
+Route::get('/auth/callback', [AuthController::class,'callback'])->name('auth.callback');
+   

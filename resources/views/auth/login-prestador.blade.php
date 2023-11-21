@@ -37,12 +37,17 @@
         </div>
         <input type="submit"
         value="Ingresar">
+        
        
         <a class="noCuenta" href="{{route('register-prestador')}}">No tienes cuenta prestador? Crear cuenta</a>
      
        
 
     </form>
+    <input type="submit"
+        value="Ingresar">
+
+        
 </div>
 
 
