@@ -16,7 +16,6 @@
 
         @endif
         <div>
-            <label for="email">Email</label>
             <input id="email"
                 name="email"
                 type="email"
@@ -26,7 +25,6 @@
                 @enderror
         </div>
         <div>
-            <label for="password">Password</label>
             <input id="password"
                 name="password"
                 type="password"
@@ -35,15 +33,10 @@
                 <p>{{$message}}</p>
                 @enderror
         </div>
-        <input type="submit"
+        <input class="btn btn-contacto" type="submit"
         value="Ingresar">
-
-        <a class="noCuenta " href="{{route('register')}}">¿No tienes cuenta? Crear cuenta</a>
-        <a class="noCuenta " href="{{route('login-prestador')}}">Si eres prestador inicia sesión aqui</a>
-
-
+        <p>¿No tienes cuenta?<a class="creaCuenta" href="{{route('register')}}">Crear cuenta</a></p>
+        <a class="creaCuenta" href="{{route('login-prestador')}}">Si eres prestador inicia sesión aqui</a>
     </form>
 </div>
-
-
 @endsection
